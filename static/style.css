@@ -1,3 +1,4 @@
+/* Cabeçalho */
 #cabeçalho {
     display: flex;
     position: relative;
@@ -15,4 +16,25 @@
 
 #logo_cabeçalho {
     margin-left: auto;
+}
+
+/* Rodapé */
+
+#rodapé {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    background-color: brown;
+}
+
+.endereço_rodapé {
+    grid-column: 1;
+}
+
+.contatos_rodapé {
+    grid-column: 2;
+}
+
+.texto_rodapé {
+    grid-column: 3;
 }
