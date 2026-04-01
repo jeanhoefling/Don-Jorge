@@ -1,0 +1,18 @@
+#cabeçalho {
+    display: flex;
+    position: relative;
+    background-color: brown;
+}
+
+#pagina_atual {
+    margin-right: 10px;
+}
+
+.navegar {
+    margin-right: 10px;
+    justify-items: left;
+}
+
+#logo_cabeçalho {
+    margin-left: auto;
+}
