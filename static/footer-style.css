@@ -1,0 +1,13 @@
+footer {
+    background: linear-gradient(180deg, #0B0B0B, #300000)
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-body-secondary {
+    color: white !important;
+    font-family: 'Cizel', serif;
+}
