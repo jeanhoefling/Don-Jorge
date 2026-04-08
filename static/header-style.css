@@ -1,0 +1,31 @@
+header {
+    background: linear-gradient(180deg, #0B0B0B, #300000);
+}
+
+.fs-4 {
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-pills .nav-link {
+    --bs-nav-pills-border-radius: 0.9rem;
+}
+
+.nav-link {
+    padding: 0.5rem 1.5rem;
+    color: white;
+    white-space: pre;
+}
+
+#whatsapp-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav {
+    --bs-nav-link-hover-color: rgb(120, 0, 0);
+}
