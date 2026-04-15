@@ -71,6 +71,7 @@ li {
     padding: 1%;
     border-radius: 5%;
     background-color: rgb(122, 73, 0);
+    margin-bottom: 20px;
 }
 
 /* SOBRE */
@@ -81,7 +82,7 @@ li {
     justify-content: space-between;
     height: 450px;
     background: 
-        linear-gradient(to right, rgba(0,0,0,1) 45%, rgba(0,0,0,0) 100%),
+        linear-gradient(to right, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 100%),
         url("../assets/IMG-SOBRE(1).png");
 
     background-size: cover;
@@ -93,7 +94,7 @@ li {
     padding: 0px 0px 0px 20px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
 
 .sobre-texto h2 {
