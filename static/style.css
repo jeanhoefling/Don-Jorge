@@ -1,40 +1,72 @@
-/* Cabeçalho */
-#cabeçalho {
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1, h2, h3, p {
+    color: rgb(122, 73, 0);
+    font-family: 'Poppins', serif;
+    font-size: 120%;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 200%;
+    color: rgb(250, 250, 250);
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 180%;
+    color: rgb(122, 73, 0);
+}
+
+p {
+    font-size: 120%;
+    color: rgb(250, 250, 250);
+    margin: 0 5%;
+}
+
+li {
+    color: rgb(122, 73, 0);
+}
+
+.container.produtos {
+    background: radial-gradient(rgb(10, 10, 10), rgb(20, 20, 20) 50%);
     display: flex;
-    position: relative;
-    background-color: brown;
+    flex-direction: column;
+    align-items: center;
 }
 
-#pagina_atual {
-    margin-right: 10px;
+.cards {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
-.navegar {
-    margin-right: 10px;
-    justify-items: left;
+
+.card-produto {
+    background: linear-gradient(0deg, rgb(10, 10, 10) 40%, rgb(104, 62, 1));
+    width: 28%;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 2%;
 }
 
-#logo_cabeçalho {
-    margin-left: auto;
+
+.card-produto img {
+    margin-top: 10px;
+    width: 95%;
+    height: 450px;
 }
 
-/* Rodapé */
 
-#rodapé {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 100px;
-    background-color: brown;
-}
-
-.endereço_rodapé {
-    grid-column: 1;
-}
-
-.contatos_rodapé {
-    grid-column: 2;
-}
-
-.texto_rodapé {
-    grid-column: 3;
+.btn {
+    margin-top: 50px;
+    padding: 1%;
+    border-radius: 5%;
+    background-color: rgb(122, 73, 0);
 }
