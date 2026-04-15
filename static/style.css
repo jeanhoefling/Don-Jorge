@@ -33,6 +33,8 @@ li {
     color: rgb(122, 73, 0);
 }
 
+/* PRODUTOS */
+
 .container.produtos {
     background: radial-gradient(rgb(10, 10, 10), rgb(20, 20, 20) 50%);
     display: flex;
@@ -69,4 +71,36 @@ li {
     padding: 1%;
     border-radius: 5%;
     background-color: rgb(122, 73, 0);
+}
+
+/* SOBRE */
+
+.container.sobre {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    background: 
+        linear-gradient(to right, rgba(0,0,0,1) 45%, rgba(0,0,0,0) 100%),
+        url("../assets/IMG-SOBRE(1).png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sobre-texto {
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sobre-texto h2 {
+    margin-top: 20px;
+}
+
+.sobre-texto p {
+    width: 80%;
+    margin-left: 0px;
 }
